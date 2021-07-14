@@ -37,14 +37,13 @@ python run.py
 
 ## Notes
 
-For some reason,
+- For some reason,
+    ```py
+    from __future__ import annotations
+    ```
+    changes the annotations from `type`s to `str`s.
 
-```py
-from __future__ import annotations
-```
-
-changes the annotations from `type`s to `str`s.
-
+- To improve this iteration, asynchronous programing should be used.
 
 [access_tokens]: https://cursos.canvas.uc.cl/profile/settings#access_tokens
 [v1]: https://github.com/benjavicente/canvas-file-downloader
